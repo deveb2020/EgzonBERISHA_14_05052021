@@ -6,6 +6,17 @@ import departements from '../components/DepartementsData'
 import { Link } from "react-router-dom";
 
 
+/*
+    Here we store the code for creating a new employee.
+
+    APP LOGIC
+    ----------
+    Basically what i'am doing here is:
+    I'am grabing the user input and I'am storing it into an individual useState hook,
+    then onSubmit I'am creating a new object with all employee's information inside like firstName lastName etc,
+    and I'am saving this employee object to Redux store using useDispatch hook
+*/
+
 const CreateEmployee = () => {
 
     const dispatch = useDispatch()

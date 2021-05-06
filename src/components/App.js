@@ -7,6 +7,10 @@ const EmployeesList = React.lazy(() => import('./EmployeesList'))
 
 
 // React Router used for navigation through pages
+/* 
+    Lazy used to increas website loading speed.
+    Using lazy we separate the main bundle into multiple chunks and then we download only the wanted code 
+*/
 
 function App() {
     return (
