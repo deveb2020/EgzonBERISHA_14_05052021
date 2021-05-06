@@ -1,7 +1,6 @@
 import '../style/App.css';
-import { BrowserRouter as Router,Switch,Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import React from 'react';
-
 const CreateEmployee = React.lazy(() => import('./CreateEmployee'))
 const EmployeesList = React.lazy(() => import('./EmployeesList'))
 
