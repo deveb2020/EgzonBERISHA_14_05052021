@@ -1,36 +1,46 @@
-import React from 'react'
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { useSelector } from 'react-redux';
 import '../style/EmployeesList.css'
-import EmployeesTable from './EmployeesTable';
+import MaterialTable from 'material-table'
 
 
-const EmployeesList = () => {
 
-    const listOfNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+function EmployeesList() {
 
-    return (
-        <div className="Employees-list-page">
+  const [data, setData] = useState([])
+  const employees = useSelector(state => state.employees)
 
-            <Link to='/' className="Go-back-btn">Create New Employee</Link>
+  useEffect(() => {
+    setData(employees)
+  },[employees])
 
-            <h1 className="title">Current Employees</h1>
 
-            <div className="select-and-searchbox-wrapper">
-                <div className="select-options-wrapper">
-                    <span>Show</span>
-                    <select className="select-box"> { listOfNumbers.map(number => <option>{number}</option>) }</select>
-                    <span>entries</span>
-                </div>
-                <div className="searchbox-wrapper">
-                    <span>Search:</span>
-                    <input type="text"/>
-                </div>
-            </div>
+  const columns = [
+    { title: "First Name", field: 'firstName'},
+    { title: "Last Name", field: "lastName" },
+    { title: "Start Date", field: "startDate" },
+    { title: "Departement", field: "departement" },
+    { title: "Date of Birth", field: "birthDate" },
+    { title: "Street", field: 'street' },
+    { title: "City", field: 'city' },
+    { title: "State", field: 'state' },
+    { title: "Zip Code", field: 'zipCode' },
+  ]
 
-            <EmployeesTable />
-            
-        </div>
-    )
+
+  return (
+      <div className="Employees-List-Page">
+        <Link to="/" className="create-new-employee-btn">Create a new employee</Link>
+        <h1 align="center">React-App</h1>
+        <h4 align='center'>Employees Table</h4>
+        <MaterialTable
+          title="Employees"
+          data={data}
+          columns={columns}
+        />
+      </div>
+  );
 }
 
-export default EmployeesList
+export default EmployeesList;

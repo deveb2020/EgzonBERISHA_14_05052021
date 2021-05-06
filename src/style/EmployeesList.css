@@ -1,100 +1,42 @@
-.Employees-list-page {
-    padding-top: 4rem;
-    background-image: url(../bck-photo.jpg);
-    background-size: 100% ;
-    background-repeat: round;
-    padding-bottom: 2rem;
-}
-
-.Go-back-btn {
+.create-new-employee-btn {
+    background: rgb(64, 108, 190);
+    color: white;
+    padding: 1rem;
+    border-radius: 3px;
+    margin-top: 2rem;
     text-decoration: none;
-    background: cadetblue;
-    padding: 0.5rem 2rem;
-    border-radius: 5px;
-    color: white;
+    position: absolute;
+    bottom: 3rem;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
-.title {
-    color: black;
-    margin-top: 5rem;
+.MuiPaper-elevation2 {
+    width: 95% !important;
+    margin: 0 auto !important;
 }
 
-.select-and-searchbox-wrapper {
-    width: 90vw;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+.MTableHeader-header-13 {
+    background: rgb(64, 108, 190) !important;
+    color: white !important;
 }
 
-.select-options-wrapper {
-    display: flex;
-    align-items: center;
+.MuiTableBody-root {
+    background: beige !important;
 }
 
-.select-box {
-    margin: 0 0.3rem;
-    height: 2rem;
-    background: none;
-    border-radius: 3px;
-}
-
-.searchbox-wrapper>span {
-    margin-right: 0.5rem;
-}
-
-.searchbox-wrapper>input {
-    background: none;
-    height: 1.5rem;
-}
-
-.Employees-table {
-    width: 90vw;
-    margin: 1rem auto;
-    margin-bottom: 0 !important;
-    background: rgba(255, 255, 255, 0.74);
-    border-radius: 0 0 5px 5px;
-}
-
-.table-data {
-    width: 8rem;
-    height: 3rem;
-}
-
-th.table-data {
-    background: cadetblue;
-    color: white;
-    font-size: 0.8rem;
-}
-
-table {
-    border-collapse: collapse;
-}
-
-tr {
-    border-bottom: 1px solid black;
-}
-
-.bottom-table {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1rem;
-}
-
-.curent-number {
-    padding: 0.5rem 1rem;
-    background: none;
-    border-radius: 3px;
-    margin: 0 0.5rem;
-    border: 1px solid black;
-}
-
-.text-wrapper {
-    margin: auto 1rem;
-}
-
-.buttons-wrapper>button {
+.MuiIcon-fontSizeSmall {
     width: 5rem;
-    height: 2.5rem;
-    background: none;
-    cursor: pointer;
+}
+
+.MuiInputAdornment-positionEnd  {
+    display: none;
+}
+
+.MuiIcon-fontSizeSmall {
+    width: 5rem !important;
+}
+
+.MuiInputAdornment-positionEnd {
+    display: none !important;
 }
