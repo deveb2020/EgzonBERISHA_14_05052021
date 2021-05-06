@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/EgzonBERISHA_14_05052021/static/css/main.c2169bd5.chunk.css",
+    "main.js": "/EgzonBERISHA_14_05052021/static/js/main.68835a82.chunk.js",
+    "main.js.map": "/EgzonBERISHA_14_05052021/static/js/main.68835a82.chunk.js.map",
+    "runtime-main.js": "/EgzonBERISHA_14_05052021/static/js/runtime-main.8c520cf2.js",
+    "runtime-main.js.map": "/EgzonBERISHA_14_05052021/static/js/runtime-main.8c520cf2.js.map",
+    "static/js/2.253b55d0.chunk.js": "/EgzonBERISHA_14_05052021/static/js/2.253b55d0.chunk.js",
+    "static/js/2.253b55d0.chunk.js.map": "/EgzonBERISHA_14_05052021/static/js/2.253b55d0.chunk.js.map",
+    "static/js/3.7ce234b3.chunk.js": "/EgzonBERISHA_14_05052021/static/js/3.7ce234b3.chunk.js",
+    "static/js/3.7ce234b3.chunk.js.map": "/EgzonBERISHA_14_05052021/static/js/3.7ce234b3.chunk.js.map",
+    "static/js/4.a0a28211.chunk.js": "/EgzonBERISHA_14_05052021/static/js/4.a0a28211.chunk.js",
+    "static/js/4.a0a28211.chunk.js.map": "/EgzonBERISHA_14_05052021/static/js/4.a0a28211.chunk.js.map",
+    "static/css/5.5b4e52a9.chunk.css": "/EgzonBERISHA_14_05052021/static/css/5.5b4e52a9.chunk.css",
+    "static/js/5.33a6e47b.chunk.js": "/EgzonBERISHA_14_05052021/static/js/5.33a6e47b.chunk.js",
+    "static/js/5.33a6e47b.chunk.js.map": "/EgzonBERISHA_14_05052021/static/js/5.33a6e47b.chunk.js.map",
+    "static/css/6.1fabf140.chunk.css": "/EgzonBERISHA_14_05052021/static/css/6.1fabf140.chunk.css",
+    "static/js/6.ee208817.chunk.js": "/EgzonBERISHA_14_05052021/static/js/6.ee208817.chunk.js",
+    "static/js/6.ee208817.chunk.js.map": "/EgzonBERISHA_14_05052021/static/js/6.ee208817.chunk.js.map",
+    "static/js/7.822f6d50.chunk.js": "/EgzonBERISHA_14_05052021/static/js/7.822f6d50.chunk.js",
+    "static/js/7.822f6d50.chunk.js.map": "/EgzonBERISHA_14_05052021/static/js/7.822f6d50.chunk.js.map",
+    "static/js/8.c7ee7e46.chunk.js": "/EgzonBERISHA_14_05052021/static/js/8.c7ee7e46.chunk.js",
+    "static/js/8.c7ee7e46.chunk.js.map": "/EgzonBERISHA_14_05052021/static/js/8.c7ee7e46.chunk.js.map",
+    "index.html": "/EgzonBERISHA_14_05052021/index.html",
+    "static/css/5.5b4e52a9.chunk.css.map": "/EgzonBERISHA_14_05052021/static/css/5.5b4e52a9.chunk.css.map",
+    "static/css/6.1fabf140.chunk.css.map": "/EgzonBERISHA_14_05052021/static/css/6.1fabf140.chunk.css.map",
+    "static/css/main.c2169bd5.chunk.css.map": "/EgzonBERISHA_14_05052021/static/css/main.c2169bd5.chunk.css.map",
+    "static/js/2.253b55d0.chunk.js.LICENSE.txt": "/EgzonBERISHA_14_05052021/static/js/2.253b55d0.chunk.js.LICENSE.txt",
+    "static/js/3.7ce234b3.chunk.js.LICENSE.txt": "/EgzonBERISHA_14_05052021/static/js/3.7ce234b3.chunk.js.LICENSE.txt",
+    "static/js/4.a0a28211.chunk.js.LICENSE.txt": "/EgzonBERISHA_14_05052021/static/js/4.a0a28211.chunk.js.LICENSE.txt",
+    "static/js/7.822f6d50.chunk.js.LICENSE.txt": "/EgzonBERISHA_14_05052021/static/js/7.822f6d50.chunk.js.LICENSE.txt",
+    "static/js/8.c7ee7e46.chunk.js.LICENSE.txt": "/EgzonBERISHA_14_05052021/static/js/8.c7ee7e46.chunk.js.LICENSE.txt",
+    "static/media/CreateEmployee.css": "/EgzonBERISHA_14_05052021/static/media/wallpaper.93f8e51b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c520cf2.js",
+    "static/js/4.a0a28211.chunk.js",
+    "static/css/main.c2169bd5.chunk.css",
+    "static/js/main.68835a82.chunk.js"
+  ]
+}
