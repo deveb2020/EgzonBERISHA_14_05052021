@@ -14,6 +14,11 @@ _Convert old jQuery code to new React code and optimise the loading speed in the
 
 * I use Lighthouse to compare the performances of the two versions
 
+## How it works ?
+
+I'am grabing the input values and I'am storing them inside of a useState Hook, than onSubmit I send all the input values as an object to the Redux Store using useDispatch Hook,
+and in the second page I'am grabind this data and displaying it to a dynamic table using useSelector Hook.
+
 ## How to see the result ?
 
 This project is deployed using github pages, to visit the website you can click in this link:
