@@ -19,7 +19,7 @@ _Convert old jQuery code to new React code and optimise the loading speed in the
 I'am grabing the input values and I'am storing them inside of a useState Hook, than onSubmit I send all the input values as an object to the Redux Store using useDispatch Hook,
 and in the second page I'am grabind this data and displaying it to a dynamic table using useSelector Hook.
 
-## How to run the project
+## How to run the project in developper mode
 
 - Clone the repo to your computer using GIT commande:
 ```
